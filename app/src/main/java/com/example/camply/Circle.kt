@@ -1,5 +1,6 @@
 package com.example.camply
 
-class Circle(x: Int, y: Int ) : Shape(x, y) {
+class Circle(override val x: Int, override val y: Int ) : Shape() {
+  
 
 }
