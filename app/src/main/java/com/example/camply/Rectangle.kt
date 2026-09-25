@@ -1,8 +1,7 @@
 package com.example.camply
 
-class Star(
+class Rectangle(
     override val x: Int,
     override val y: Int
 ) : Shape(x, y) {
-
 }
